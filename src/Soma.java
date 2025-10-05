@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class Soma implements Operacao {
 
-public class Soma {
+    @Override
+    public double calcular(double a, double b) {
+        return a + b;
+    }
 }
