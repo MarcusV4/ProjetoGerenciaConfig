@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public interface Interface {
+public interface Operacao {
+    double calcular(double a, double b);
 }
