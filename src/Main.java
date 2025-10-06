@@ -3,6 +3,6 @@ public class Main {
 
         Contexto contexto = new Contexto();
         contexto.setOperacao(new Soma());
-        System.out.println("Resultado da conta é: " + contexto.calcular(2, 5));
+        System.out.println("Resultado da operação é ="+contexto.calcular(2, 5));
     }
 }
